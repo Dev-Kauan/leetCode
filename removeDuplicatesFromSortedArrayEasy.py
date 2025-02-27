@@ -5,7 +5,7 @@ class Solution:
             if nums[i] != nums[i - 1]:
                 nums[posicao] = nums[i]
                 posicao += 1
-        return posicao
+        return print(posicao)
 
 result = Solution()
 result.removeDuplicates([1,1,2,3,3,3,4,5])
